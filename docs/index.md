@@ -22,13 +22,16 @@ features:
       src: /net.png
     title: .Net
     details: 持续关注ASP.NET Core、MAUI和DDD落地
+    link: /net/asp-net-core/
   - icon: 
       src: /unity.png
     title: Unity
     details: 圆梦童年，通关横版冒险游戏制作
+    link: /unity/legend-of-the-warrior/
   - icon: 
       src: /web.png
     title: Web前端
     details: 持续关注Vue、前端技术发展
+    link: /frontend/vue/
 ---
 
