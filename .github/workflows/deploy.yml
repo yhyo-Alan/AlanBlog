@@ -4,7 +4,7 @@ name: Deploy
 on:
    push:
       branches:
-         - master
+         - main
 
 jobs:
    deploy:
@@ -15,7 +15,7 @@ jobs:
               fetch-depth: 0
          - uses: actions/setup-node@v3
            with:
-              node-version: 16
+              node-version: 20
               cache: npm
          - run: npm install --frozen-lockfile
 
