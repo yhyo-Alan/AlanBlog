@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base:'/AlanBlog/',
+    // base:'/AlanBlog/',
     title: "Alan‘s blog",
     description: ".net|.net core|大前端 笔记",
     lastUpdated: true,
