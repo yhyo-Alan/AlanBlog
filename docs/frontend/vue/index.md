@@ -1,3 +1,3 @@
-# 认识Vue
+# Vue
 
-Vue.js介绍
+将在这里记录我身边的Vue.js

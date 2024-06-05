@@ -31,10 +31,13 @@ export default defineConfig({
                 ]
             },
             {
+                text: '系统架构设计师', link: '/exam/'
+            },
+            {
                 text: '随笔', link: '/memo/'
             },
             {
-                text: '关于', link: '/introduce'
+                text: '关于', link: '/about'
             }
         ],
         // 配置侧边栏
@@ -43,16 +46,20 @@ export default defineConfig({
                 {
                     text: 'vue',
                     items: [
-                        { text: '认识vue', link: '/frontend/vue/' },
-                        { text: '生命周期', link: '/frontend/vue/lifecycle' }
+                        { text: '认识vue', link: '/frontend/vue/' }
                     ]
                 }
             ],
             '/memo/': [
                 {
                     text: '一些随笔',
+                }
+            ],
+            '/exam/': [
+                {
+                    text: '软考高级-系统架构设计师',
                     items: [
-                        { text: '水星记', link: '/memo/water' },
+                        { text: '写在前面', link: '/exam/' }
                     ]
                 }
             ]
