@@ -25,6 +25,7 @@
 </div>
 
 <div class="badge-container">
+    <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-7559a9?logo=Visual%20Studio">
     <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-7559a9?logo=Visual%20Studio%20Code">
     <img alt="Visual Studio for Mac" src="https://img.shields.io/badge/Visual%20Studio%20for%20Mac-7559a9?logo=Visual%20Studio">
     <img alt="Rider" src="https://img.shields.io/badge/JetBrains%20Rider-7559a9?logo=Rider">

@@ -11,7 +11,7 @@ hero:
     alt: a pic
   actions:
     - theme: brand
-      text: 关于Alan‘s blog
+      text: 关于Alan's blog
       link: /about
     - theme: alt
       text: GitHub

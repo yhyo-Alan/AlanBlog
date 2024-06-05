@@ -6,7 +6,7 @@ export default defineConfig({
     title: "Alan's blog",
     description: ".net|.net core|大前端 笔记",
     lastUpdated: true,
-    lang: 'zh-cn',
+    lang: 'zh-CN',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: { light: "/logo_black.png", dark: "/logo_white.png" },
