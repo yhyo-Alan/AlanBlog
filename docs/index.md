@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 关于Alan‘s blog
-      link: /introduce
+      link: /about
     - theme: alt
       text: GitHub
       link: https://github.com/yhyo-Alan
