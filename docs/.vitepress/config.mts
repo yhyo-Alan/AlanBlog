@@ -5,14 +5,20 @@ export default defineConfig({
     // base:'/AlanBlog/',
     title: "Alan's blog",
     description: ".net|.net core|大前端 笔记",
-    lastUpdated: true,
-    lang: 'zh-CN',
+    lang: 'zh-Hans',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: { light: "/logo_black.png", dark: "/logo_white.png" },
         darkModeSwitchLabel: '切换主题色',
         lightModeSwitchTitle: '切换为亮色主题',
         darkModeSwitchTitle: '切换为暗黑主题',
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'medium'
+            },
+        },
         // 配置导航栏
         nav: [
             {
@@ -40,6 +46,7 @@ export default defineConfig({
                 text: '关于', link: '/about'
             }
         ],
+        sidebarMenuLabel: '菜单',
         // 配置侧边栏
         sidebar: {
             '/frontend/vue/': [
@@ -74,6 +81,15 @@ export default defineConfig({
         ],
         search: {
             provider: 'local'
+        },
+        outline: {
+            label: '本页目录'
+        },
+        externalLinkIcon: true,
+        returnToTopLabel: '返回顶部',
+        docFooter: {
+            prev: '上一页',
+            next: '下一页'
         },
         footer: {
             copyright: 'Copyright © 2024-present Alan Xu'
