@@ -66,7 +66,9 @@ export default defineConfig({
                 {
                     text: '软考高级-系统架构设计师',
                     items: [
-                        { text: '写在前面', link: '/exam/' }
+                        { text: '学习规划', link: '/exam/' },
+                        { text: '系统结构概述', link: '/exam/introduction' },
+                        { text: '计算机系统基础知识', link: '/exam/computer-systems-fundamentals' },
                     ]
                 }
             ]
@@ -92,7 +94,7 @@ export default defineConfig({
             next: '下一页'
         },
         footer: {
-            copyright: 'Copyright © 2024-present Alan Xu'
+            copyright: 'Copyright © 2024-present Alan Xu Powered by VitePress'
         }
     },
 })
