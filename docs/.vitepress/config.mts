@@ -23,7 +23,7 @@ export default defineConfig({
         nav: [
             {
                 text: '.NET', items: [
-                    { text: 'ASP.NET Core', link: '/net/asp-net-core/' },
+                    { text: '.NET Core', link: '/net/asp-net-core/' },
                 ]
             },
             {
@@ -36,9 +36,9 @@ export default defineConfig({
                     { text: 'Vue全家桶', link: '/frontend/vue/' },
                 ]
             },
-            {
-                text: '系统架构设计师', link: '/exam/'
-            },
+            // {
+            //     text: '系统架构设计师', link: '/exam/'
+            // },
             {
                 text: '随笔', link: '/memo/'
             },
@@ -62,16 +62,26 @@ export default defineConfig({
                     text: '一些随笔',
                 }
             ],
-            '/exam/': [
+            '/net/asp-net-core/': [
                 {
-                    text: '软考高级-系统架构设计师',
+                    text: '.Net Core',
                     items: [
-                        { text: '学习规划', link: '/exam/' },
-                        { text: '系统结构概述', link: '/exam/introduction' },
-                        { text: '计算机系统基础知识', link: '/exam/computer-systems-fundamentals' },
+                        { text: '开始', link: '/net/asp-net-core/' },
+                        { text: '异步编程', link: '/net/asp-net-core/async' },
+                        { text: '异步编程', link: '/net/asp-net-core/async' },
                     ]
                 }
-            ]
+            ],
+            // '/exam/': [
+            //     {
+            //         text: '软考高级-系统架构设计师',
+            //         items: [
+            //             { text: '学习规划', link: '/exam/' },
+            //             { text: '系统结构概述', link: '/exam/introduction' },
+            //             { text: '计算机系统基础知识', link: '/exam/computer-systems-fundamentals' },
+            //         ]
+            //     }
+            // ]
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/yhyo-Alan' },
