@@ -33,10 +33,10 @@ features:
     title: Web前端
     details: 持续关注Vue、前端技术发展
     link: /frontend/vue/
-  # - icon: 
-  #     src: /framework.png
-  #   title: 系统架构设计师
-  #   details: 软考高级系统架构设计师备考
-  #   link: /exam/
+  - icon: 
+      src: /framework.png
+    title: 系统架构设计师
+    details: 软考高级系统架构设计师备考
+    link: /exam/introduction
 ---
 

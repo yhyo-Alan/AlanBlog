@@ -36,9 +36,9 @@ export default defineConfig({
                     { text: 'Vue全家桶', link: '/frontend/vue/' },
                 ]
             },
-            // {
-            //     text: '系统架构设计师', link: '/exam/'
-            // },
+            {
+                text: '系统架构设计师', link: '/exam/introduction'
+            },
             {
                 text: '随笔', link: '/memo/'
             },
@@ -72,16 +72,15 @@ export default defineConfig({
                     ]
                 }
             ],
-            // '/exam/': [
-            //     {
-            //         text: '软考高级-系统架构设计师',
-            //         items: [
-            //             { text: '学习规划', link: '/exam/' },
-            //             { text: '系统结构概述', link: '/exam/introduction' },
-            //             { text: '计算机系统基础知识', link: '/exam/computer-systems-fundamentals' },
-            //         ]
-            //     }
-            // ]
+            '/exam/': [
+                {
+                    text: '软考高级-系统架构设计师',
+                    items: [
+                        { text: '系统结构概述', link: '/exam/introduction' },
+                        { text: '计算机系统基础知识', link: '/exam/computer-systems-fundamentals' },
+                    ]
+                }
+            ]
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/yhyo-Alan' },
